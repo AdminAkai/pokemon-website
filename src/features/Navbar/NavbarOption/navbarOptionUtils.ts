@@ -1,5 +1,5 @@
-import PokedexIcon from 'public/pokedex_icon.svg?react'
-import PokeBerryIcon from 'public/pokemon_berry.svg?react'
+import PokedexIcon from 'src/assets/pokedex_icon.svg?react'
+import PokeBerryIcon from 'src/assets/pokemon_berry.svg?react'
 import { FunctionComponent, SVGProps } from 'react'
 
 export type NavbarOptionType = {

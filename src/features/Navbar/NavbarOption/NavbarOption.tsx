@@ -1,8 +1,8 @@
 import { FC, useContext } from 'react'
 import { NavbarOptionType } from './navbarOptionUtils'
-import GlobalSettingsContext from 'src/contexts/GlobalSettingsContext'
 import styles from './navbarOptionStyles.module.css'
 import { NavLink } from 'react-router'
+import { GlobalSettingsContext } from 'src/contexts/GlobalSettings'
 
 const NavbarOption: FC<NavbarOptionType> = ({
   name,

@@ -1,15 +1,13 @@
 import AppRouter from './AppRoutes'
-import GlobalSettingsContext, {
-  initialGlobalSettings,
-} from './contexts/GlobalSettingsContext'
 import { BrowserRouter } from 'react-router'
+import GlobalSettingsProvider from './contexts/GlobalSettings'
 
 function App() {
   return (
     <BrowserRouter>
-      <GlobalSettingsContext.Provider value={initialGlobalSettings}>
+      <GlobalSettingsProvider>
         <AppRouter />
-      </GlobalSettingsContext.Provider>
+      </GlobalSettingsProvider>
     </BrowserRouter>
   )
 }

@@ -1,0 +1,18 @@
+.color-setting {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  height: 100%;
+  color: var(--text-secondary);
+  text-decoration: none;
+  font-weight: 800;
+
+  & path {
+    fill: var(--text-secondary);
+  }
+}
+
+.color-setting-header {
+  text-transform: capitalize;
+}

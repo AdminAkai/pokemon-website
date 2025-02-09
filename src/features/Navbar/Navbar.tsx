@@ -1,11 +1,13 @@
 import { FC, useContext } from 'react'
-import GlobalSettingsContext from 'src/contexts/GlobalSettingsContext'
 import styles from './navbarStyles.module.css'
 import { navbarOptions } from './NavbarOption/navbarOptionUtils'
 import NavbarOption from './NavbarOption'
+import ColorSetting from './ColorSetting'
+import { GlobalSettingsContext } from 'src/contexts/GlobalSettings'
 
 const Navbar: FC = () => {
   const { colorMode } = useContext(GlobalSettingsContext)
+
   return (
     <nav
       className={styles.navbar}
@@ -13,8 +15,9 @@ const Navbar: FC = () => {
       aria-label='navigation bar'
     >
       {navbarOptions.map((option) => (
-        <NavbarOption {...option} />
+        <NavbarOption {...option} key={option.name} />
       ))}
+      <ColorSetting />
     </nav>
   )
 }

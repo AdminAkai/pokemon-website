@@ -1,8 +1,8 @@
 import { FC, useContext } from 'react'
 import { Outlet } from 'react-router'
 import Navbar from 'src/features/Navbar'
-import GlobalSettingsContext from 'src/contexts/GlobalSettingsContext'
 import styles from './mainStyles.module.css'
+import { GlobalSettingsContext } from 'src/contexts/GlobalSettings'
 
 const Main: FC = () => {
   const { colorMode } = useContext(GlobalSettingsContext)
