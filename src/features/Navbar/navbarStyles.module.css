@@ -1,0 +1,6 @@
+.navbar {
+  background-color: var(--background-item);
+  height: 100px;
+  width: 70%;
+  border-radius: 20px;
+}
