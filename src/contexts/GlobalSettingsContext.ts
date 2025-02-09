@@ -10,7 +10,7 @@ type GlobalSettings = {
 }
 
 export const initialGlobalSettings: GlobalSettings = {
-  colorMode: ColorModes.DARK,
+  colorMode: ColorModes.LIGHT,
 }
 
 const GlobalSettingsContext: Context<GlobalSettings> =

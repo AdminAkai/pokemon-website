@@ -1,0 +1,55 @@
+.nav-option {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  height: 100%;
+  color: var(--text-secondary);
+  text-decoration: none;
+  font-weight: 800;
+}
+
+.pokedex {
+  & svg,
+  g,
+  rect,
+  line,
+  polyline,
+  polygon,
+  circle,
+  path {
+    stroke: var(--text-secondary);
+  }
+}
+
+.berries {
+  & svg,
+  g,
+  rect,
+  line,
+  polyline,
+  polygon,
+  circle,
+  path {
+    stroke: var(--text-primary);
+    fill: var(--background);
+  }
+}
+
+.pokedex-active {
+  border-bottom: solid 5px var(--pokered);
+
+  & h3 {
+    color: var(--pokered);
+  }
+  & svg,
+  g,
+  rect,
+  line,
+  polyline,
+  polygon,
+  circle,
+  path {
+    stroke: var(--pokered);
+  }
+}

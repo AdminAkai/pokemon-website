@@ -1,27 +1,24 @@
 :root {
   --background: #f5f8fc;
-  --background-item: #fffffe;
+  --item-background: #fffffe;
   --text-primary: #09193c;
   --text-secondary: #75838d;
+  --pokered: #ff5251;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
 }
 
-[data-colorMode='dark'] {
-  --background: #04070b;
-  --background-item: #000000;
-  --text-primary: #c3d3f3;
-  --text-secondary: #727f88;
+[data-colormode='dark'] {
+  --background: #3c4856;
+  --item-background: #91aecf;
+  --text-primary: #c4c9f9;
+  --text-secondary: #383a3d;
 }
 
 *,
 *::before,
 *::after {
   scrollbar-color: transparent;
-  /* font-family: 'Blender Pro'; */
   box-sizing: border-box;
-}
-
-* {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
 }
 
 body {

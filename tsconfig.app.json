@@ -6,6 +6,13 @@
     "lib": ["ES2020", "DOM", "DOM.Iterable"],
     "module": "ESNext",
     "skipLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "src/*": ["./src/*"],
+      "public/*": ["./public/*"]
+    },
+    "esModuleInterop": true,
+    "types": ["vite-plugin-svgr/client"],
 
     /* Bundler mode */
     "moduleResolution": "bundler",

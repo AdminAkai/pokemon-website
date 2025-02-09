@@ -1,6 +1,12 @@
 .navbar {
-  background-color: var(--background-item);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: var(--item-background);
   height: 100px;
   width: 70%;
   border-radius: 20px;
+  margin-top: 20px;
+  color: var(--text-secondary);
+  box-shadow: 0px 5px 5px 0px #eaeaea;
 }
