@@ -1,4 +1,4 @@
-import AppRouter from './AppRouter'
+import AppRouter from './AppRoutes'
 import GlobalSettingsContext, {
   initialGlobalSettings,
 } from './contexts/GlobalSettingsContext'
