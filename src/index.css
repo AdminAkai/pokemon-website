@@ -4,6 +4,8 @@
   --text-primary: #09193c;
   --text-secondary: #75838d;
   --pokered: #ff5251;
+  --box-shadow-color: #eaeaea;
+  --box-shadow: 0px 5px 5px 0px var(--box-shadow-color);
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
 }
 
@@ -12,6 +14,9 @@
   --item-background: #91aecf;
   --text-primary: #c4c9f9;
   --text-secondary: #383a3d;
+  --pokered: #a00010;
+  --box-shadow-color: #373737;
+  --box-shadow: 0px 5px 5px 0px var(--box-shadow-color);
 }
 
 *,
